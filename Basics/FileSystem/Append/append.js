@@ -17,3 +17,8 @@ fs.writeFile('newFile3.txt', 'Overwrite Every Time', function (err) {
   if (err) throw err;
   console.log('File added or overwritten');
 });
+
+fs.unlink('newFile.txt', function (err) {
+  if (err) throw err;
+  console.log('newFile.txt was deleted!');
+});
