@@ -48,7 +48,9 @@ class Stack {
 
     //  clear method
     clear() {
-        
+        this.items = {};
+        this.count = 0;
+
     }
 
 }
