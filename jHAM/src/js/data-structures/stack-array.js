@@ -24,4 +24,9 @@ class Stack {
     isEmpty() {
         return this.items.length === 0;
     }
+
+    //  Size method (just length but using the term size for collection naming standard)
+    size() {
+        return this.items.length;
+    }
 }
