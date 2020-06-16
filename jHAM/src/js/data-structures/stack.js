@@ -4,4 +4,15 @@ class Stack {
         this.count = 0;
         this.items = {};
     }
+    //  Object-Based Push Method for Stack
+    push(element) {
+        this.items[this.count] = element;
+        this.count++; //    Object-Based so push one at a time
+    }
+
+    //  Size Method is in line with count
+    size(){
+        return this.count;
+    }
+    
 }
