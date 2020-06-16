@@ -60,9 +60,9 @@ class Stack {
         if(this.isEmpty()){
             return '';
         }
-        let objString = `${this.items[0]}`;
+        let objString = `${this.items[0]}`; //  initialize string from base of stack
         for (let i=1; i < this.count; i++) {
-            objString = `${objString},${this.items[i]}`;
+            objString = `${objString},${this.items[i]}`;//  iterate through all keys of the stack until on top adding a comma in between
         }
         return objString;
     }
