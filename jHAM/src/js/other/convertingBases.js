@@ -1,5 +1,4 @@
-import { Stack } from '../data-structures/stack';
-
+import { Stack } from '../data-structures/stack/stack';
 
 // Applying the Object Based Stack Data Structure I just Built
 //  via decimalToBinary conversion of the Stack.
