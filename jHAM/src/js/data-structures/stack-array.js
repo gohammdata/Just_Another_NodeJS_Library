@@ -18,4 +18,10 @@ class Stack {
     peek() {
         return this.items[this.items.length - 1]; //    Last element is at position (length-1)
     }
+
+    //  Returns true if stack is empty and false if not.
+
+    isEmpty() {
+        return this.items.length === 0;
+    }
 }
