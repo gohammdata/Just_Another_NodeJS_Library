@@ -46,11 +46,13 @@ class Stack {
         return this.items[this.count-1];
     }
 
-    //  clear method
+    //  clear method respecting the LIFO
     clear() {
-        this.items = {};
-        this.count = 0;
-
+        //  this.items = {};
+        //  this.count = 0;
+        while (!this.isEmpty()){
+            this.pop();
+        }
     }
 
 }
