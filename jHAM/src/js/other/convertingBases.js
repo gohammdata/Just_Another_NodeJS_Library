@@ -21,3 +21,8 @@ function decimalToBinary(decimalNumber) {
 
     return binaryString;
 }
+
+// Tests in console
+console.log(decimalToBinary(10)); // 1010 - expected
+console.log(decimalToBinary(1000)); //  1111101000 - expected
+console.log(decimalToBinary(233)); //    11101001 - expected
