@@ -27,6 +27,7 @@ class Stack {
         return this.count === 0;
     }
 
+    // pop method that checks if stack object is empty then removes via LIFO and returns what was removed
     pop() {
         if (this.isEmpty()) {
             return undefined;
@@ -36,4 +37,18 @@ class Stack {
         delete this.items[this.count];
         return result;
     }
+
+    //  peek method checks if stack is empty and if not returns the last added element to the stack
+    peek() {
+        if (this.isEmpty()) {
+            return undefined;
+        }
+        return this.items[this.count-1];
+    }
+
+    //  clear method
+    clear() {
+        
+    }
+
 }
