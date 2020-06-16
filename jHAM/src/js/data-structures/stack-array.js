@@ -29,4 +29,9 @@ class Stack {
     size() {
         return this.items.length;
     }
+
+    //  Clear the stack
+    clear() {
+        this.items = []; // easiest way to clear the stack
+    }
 }
