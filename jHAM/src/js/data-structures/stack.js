@@ -14,5 +14,9 @@ class Stack {
     size(){
         return this.count;
     }
-    
+
+    //  isEmpty Method in line with count
+    isEmpty() {
+        return this.count === 0;
+    }
 }
