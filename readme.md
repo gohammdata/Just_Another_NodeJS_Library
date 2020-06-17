@@ -1,0 +1,2 @@
+<h1>Just Another NodeJS Library</h1>
+<p>NodeJS library with general custom features and a focus on scientific programming for the web.</p><p>I feel that since HTML and web pages were originally created for scientific journals, there should at least be a dedicated web framework for scientific programming decades later during the boom of NodeJS Libraries and NodeJS Frameworks.</p>
