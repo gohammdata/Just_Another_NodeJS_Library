@@ -1,5 +1,5 @@
 //  FIFO Data Structure
-class Queue {
+export class Queue {
     constructor() {
         this.count = 0; // Control size of queue
         this.lowestCount - 0; //    Track first element in queue (FIFO)
