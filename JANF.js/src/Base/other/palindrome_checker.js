@@ -27,3 +27,5 @@ function palindromeChecker (aString) {
 
     console.log('a', palindromeChecker('a')); //    Truu
     console.log('aa', palindromeChecker('aa')); //  Truest
+    console.log('Was it a car or a car I saw', palindromeChecker('Was it a car or a car I saw')); //    True!
+    console.log('This is not a palindrome', palindromeChecker('This is not a palindrome')); //  False as they come
